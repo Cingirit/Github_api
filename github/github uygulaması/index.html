@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Github</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="header" class="row mt-2">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <img id="githublogo" src="images/githublogo.png" alt="">
+            </div>
+            <div id="githubtext" class="col-sm-12 col-md-8 col-lg-8">
+                <h3>GİTHUB KULLANICILARINI ARAYIN</h3>
+            </div>
+        </div>
+        <div id="searchDiv" class="row mt-2">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <form id="form">
+                    <input id="githubid" type="text" class="form-control" placeholder="Github kullanıcısını arayın">
+                    <div class="mt-2 d-flex justify-content-center">
+                        <button style="width: 90px; margin-right: 5px;" class="btn btn-outline-primary"
+                            type="submit">Ara</button>
+                        <button id="clearbtn" style="width: 90px; margin-left: 5px;" class="btn btn-outline-danger"
+                            type="button">Temizle</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="profileControl" class="row mt-2">
+            <!-- <div id="contentWrapper" class="col-sm-12 col-md-4 col-lg-4">
+                <div id="profileCard" class="card">
+                    <img id="profileImg" class="card-img-top img-thumbnail" src="" alt="">
+                </div>
+                <hr>
+                <div class="card-body">
+                    <h5 class="card-title p-1">Enes Bayram</h5>
+                    <div class="card-text p-1">Lorem, ipsum.</div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-8 mt-2">
+                <div id="badgesWrapper">
+                    <button type="button" class="btn btn-primary">
+                        Takipçiler <span class="badge text-bg-light">4</span>
+                    </button>
+                    <button type="button" class="btn btn-secondary">
+                        Takip Edilenler <span class="badge text-bg-light">4</span>
+                    </button>
+                    <button type="button" class="btn btn-success">
+                        Repolar <span class="badge text-bg-light">4</span>
+                    </button>
+                </div>
+                <div id="infoWrapper">
+                    <div class="info">
+                        <img src="images/company.png" width="40" height="40" alt="">
+                        <span>Jquery</span>
+                    </div>
+                    <div class="info">
+                        <img src="images/location.png" width="40" height="40" alt="">
+                        <span>Ankara</span>
+                    </div>
+                    <div class="info">
+                        <img src="images/mail.png" width="40" height="40" alt="">
+                        <span>xxx.com</span>
+                    </div>
+                    <div class="info">
+                        <a href="#">Repoları Göster</a>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <div id="repoDiv" class="row mt-2">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">No</th>
+                        <th scope="col">Proje İsmi</th>
+                        <th scope="col">Oluşturulma Tarihi</th>
+                    </tr>
+                </thead>
+                <tbody id="repoTable">
+                    <!-- <tr>
+                        <th scope="row" style="padding-left: 10px;">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                    </tr> -->
+                </tbody>
+            </table>
+        </div>
+        <div id="double" class="row">
+            <div class="col-sm-6 col-md-6 col-lg-6">
+                <div id="sol">
+                    <div id="firstDiv">
+                        <h4>Son arananlar</h4>
+                        <button class="btn btn-danger">Tümünü Temizle</button>
+                    </div>
+                    <ul id="searchedUserList" class="list-group">
+                        <!-- <li class="list-group-item">xxx</li> -->
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 sağ">
+                <div id="sağ">
+                    <h4>Günün Sözü</h4>
+                    <p>İnsan yalnızca farkına vardığı şeylerden sorumlu olsaydı, alıklar her türlü hatadan peşin peşin
+                        arınmış olurlardı. Ancak azizim, insan bilmekle yükümlüdür. İnsan bilgisizliğinden sorumludur.
+                        Bilgisizlik bir hatadır.</p>
+                </div>
+            </div>
+        </div>
+        <div id="footer" class="row">
+            <div id="mainDiv" class="col-sm-12 col-md-12 col-lg-12">
+                <h5 class="mt-4">Bizimle İletişime Geçin</h5>
+                <div id="socialMediaDiv">
+                    <a href="#"><i id="instagramLogo" class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i id="youtubeLogo" class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i id="twitterLogo" class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/storage.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/github.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/7650ebcad4.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

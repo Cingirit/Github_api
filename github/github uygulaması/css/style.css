@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(216, 210, 210);
+}
+
+#profileControl {
+    background-color: #fff;
+    border: 1px solid lightgray;
+    padding: 8px;
+}
+
+#contentWrapper {
+    border: 1px solid #d9d9d9
+}
+
+#profileImg {
+    width: 200px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+#profileCard {
+    border: none;
+}
+
+.card-body {
+    text-align: center;
+    font-family: monospace;
+    margin-top: 10px;
+}
+
+.card-body>h5 {
+    font-weight: 700;
+}
+
+.info {
+    margin: 15px;
+}
+
+/* ******************************Repolar************************************** */
+.table {
+    text-align: center;
+}
+
+#double {
+    background-color: #fff;
+    border: 1px solid lightgray;
+    padding: 8px;
+}
+
+#sağ>h4 {
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    letter-spacing: 3px;
+}
+
+#sağ>p {
+    padding: 15px;
+    margin: 10px;
+    font-size: 17px;
+}
+
+#sol {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#firstDiv {
+    display: flex;
+    margin: 10px;
+
+}
+
+#firstDiv>button {
+    margin-top: 5px;
+    margin-left: 1rem;
+}
+
+#firstDiv>h4 {
+    margin-top: 8px;
+    margin-left: 1rem;
+    
+}
+
+.list-group {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid lightgray
+}
+#footer{
+    background-color: #fff;
+    border: 1px solid lightgray;
+    padding: 8px;
+    text-align: center;
+}
+.fa-brands{
+    font-size: 50px;
+    margin-left: 18px;
+    margin-right: 10px;
+}
+#youtubeLogo{
+    color: red;
+}
+#instagramLogo{
+    color: #fd1d1d;
+}
